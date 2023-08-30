@@ -1,0 +1,19 @@
+run app server
+
+    uvicorn main:app --reload
+
+
+To init migrations with alembic
+
+    alembic init migrations
+
+
+To generate first migration revision
+
+    alembic revision --autogenerate -m "First revision"
+
+To run migration upgrade or downgrade
+
+    alembic upgrade head
+
+    alembic downgrade first four characters of migration
