@@ -1,3 +1,8 @@
+Link con instrucciones para desacargar imagen docker de POSTGRESQL
+
+https://www.notion.so/drgarciadev/PostgreSQL-Docker-b67eb1495c724f2ea32259dddf6599a4?pvs=4
+
+
 run app server
 
     uvicorn main:app --reload
